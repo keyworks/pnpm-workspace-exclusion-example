@@ -1,0 +1,49 @@
+importers:
+  .:
+    specifiers: {}
+  foo:
+    dependencies:
+      react: 16.13.0
+    specifiers:
+      react: ^16.13.0
+lockfileVersion: 5.1
+packages:
+  /js-tokens/4.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-GSA/tZmR35jjoocFDUZHzerzJJk=
+  /loose-envify/1.4.0:
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
+  /object-assign/4.1.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+  /prop-types/15.7.2:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react-is: 16.13.0
+    dev: false
+    resolution:
+      integrity: sha1-UsQedbjIfnK52TYOAga5ncv/psU=
+  /react-is/16.13.0:
+    dev: false
+    resolution:
+      integrity: sha1-DzfDYTw0/ms3zX92Og1ik6sVxSc=
+  /react/16.13.0:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      prop-types: 15.7.2
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-0EbqvN9k5Fe77tHnkuI14bmTTPc=
